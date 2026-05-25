@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.js-todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.js-add {
+    background-color: green;
+}
+
+.complete-button {
+    background-color: white;
+}
+
+.edit-button {
+    background-color: rgb(33, 166, 255);
+}
+
+.delete-button {
+    background-color: rgb(255, 51, 0);
+}
